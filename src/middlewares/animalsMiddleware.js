@@ -27,8 +27,8 @@ import {
   validationAnimal,
 } from 'src/utils/validator';
 
-const URL = 'http://54.172.199.205/apotheose/apo-PetsWantHome-back/public/api';
-const URLBIS = 'http://54.172.199.205/apotheose/apo-PetsWantHome-back/public';
+const URL = 'http://localhost/projets-perso/PetsWantHome/PetsWantHome-Back/public/api';
+const URLBIS = 'http://localhost/projets-perso/PetsWantHome/PetsWantHome-Back/public';
 
 const animalsMiddleware = (store) => (next) => (action) => {
   switch (action.type) {

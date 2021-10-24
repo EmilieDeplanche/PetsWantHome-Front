@@ -61,7 +61,7 @@ const Home = ({
             className="thumbnails-link"
             key={animal.id}
           >
-            <img className="thumbnails-image" src={`http://54.172.199.205/apotheose/apo-PetsWantHome-back/public/images/${animal.picture}`} alt="#" />
+            <img className="thumbnails-image" src={`http://localhost/projets-perso/PetsWantHome/PetsWantHome-Back/public/images/${animal.picture}`} alt="#" />
           </Link>
         ))}
 

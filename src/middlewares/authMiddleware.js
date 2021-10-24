@@ -25,8 +25,8 @@ import {
   validationUser,
 } from 'src/utils/validator';
 
-const API_URL = 'http://54.172.199.205/apotheose/apo-PetsWantHome-back/public/api';
-const myurl = 'http://54.172.199.205/apotheose/apo-PetsWantHome-back/public/api/shelter/create';
+const API_URL = 'http://localhost/projets-perso/PetsWantHome/PetsWantHome-Back/public/api';
+const myurl = 'http://localhost/projets-perso/PetsWantHome/PetsWantHome-Back/public/api/shelter/create';
 
 const authMiddleware = (store) => (next) => (action) => {
   switch (action.type) {
